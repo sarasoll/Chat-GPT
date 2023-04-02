@@ -1,4 +1,6 @@
+#### Take i
 #### The code stuck on step 2 Need Improvements
+
 
 import os
 import openai
