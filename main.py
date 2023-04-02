@@ -11,8 +11,8 @@ def askGPT(text):
         engine = "text-davinci-003",
         prompt = text,
         temperature = 0.6,
-        max_tokens = 150,
-    )
+        max_tokens = 150,)
+    
     return print(response.choices[0].text)
 
 def main():
