@@ -26,7 +26,7 @@ response = openai.Completion.create(
 
 print(response['choices'][0]['text'])
 
-
+###
 prediction_table.add_data(gpt_prompt,response['choices'][0]['text'])
 wandb.log({'predictions': prediction_table})
 wandb.finish()
