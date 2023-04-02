@@ -20,8 +20,7 @@ response = openai.Completion.create(
   max_tokens=256,
   top_p=1.0,
   frequency_penalty=0.0,
-  presence_penalty=0.0
-)
+  presence_penalty=0.0)
 
 
 print(response['choices'][0]['text'])
